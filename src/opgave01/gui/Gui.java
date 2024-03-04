@@ -22,9 +22,8 @@ public class Gui extends Application {
         stage.setScene(scene);
         stage.show();
     }
-
-    private final ListView<Person> lvwP = new ListView<>();
     private final Controller controller = new Controller();
+    private final ListView<Person> lvwP = new ListView<>();
     private final TextField txfNvn = new TextField();
     private final CheckBox checkBox = new CheckBox();
 
